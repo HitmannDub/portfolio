@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    background-image: url(images/back.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+    header {
+        background-color: brown;
+        padding: 20px;
+        margin-top: 35px;
+        margin-left: 150px;
+        margin-right: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 68px;
+        box-sizing: border-box;
+        animation: fadein 1s ease;
+   }
+   header nav ul {
+        display: flex;
+        gap: 1 em ;       
+    }
+    ul ,
+    ol {
+         list-style: none; 
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+    .cel{
+        text-align: center;
+        margin-top: 2px;
+   }
+   .mic{
+        text-align: center;
+        margin-top: 17px;
+   }
+   .minihd{
+        text-align: center;
+        margin-top: 16px;
+   }
+   
+a { background-color: brown;
+    color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px;
+}
+
+a:hover{
+     background-color: white;
+     color: brown;
+     font-weight: 800;     
+}
+
+.titulo_seccion {
+    margin-top: 35px;
+    position: relative;
+    font-size: 28px;
+    color: brown;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container {
+    max-width: 400px; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 10px; /* Agrega un poco de espacio alrededor del formulario */
+    border: 1px; /* Agrega un borde al contenedor */
+    border-radius: 1px; /* Agrega bordes redondeados al contenedor */
+    margin-top: 1px;
+}
+    .form-group {
+    margin-bottom: 2px; /* Espacio entre cada input */
+    }
+    label {
+    margin-left: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+       
+}
+    input[type="text"],
+    input[type="email"],
+    textarea {
+    width: 400px; /* Define el ancho máximo del input */
+    padding: 10px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin-top: 10px;
+    }
+    textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+    
+    }
+    button { 
+    background-color: grey;
+    /* Coloca estilos a tu botón */
+    font-weight: 600 px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    font-size: 18px;
+    color: white;    
+    margin-left: 115px;
+}
+    button:hover {
+    background-color: red;
+    }
+    
+
+.contacto {
+    background-color: brown;
+    color: white;
+    margin-left: 126px;
+    margin-right: 126px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    height: 36px;
+}

@@ -1,0 +1,128 @@
+body{
+     background-color: black;
+     background-image: url(images/back.jpg);
+     background-position: center ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: white;
+     animation: fadein 1s ease;
+}
+
+
+@keyframes fadein {
+     from {opacity: 0;}
+     to {opacity: 1;}
+}
+
+
+ul ,
+ol {
+     list-style: none; 
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+header {
+     background-color: brown;
+     padding: 15px;
+     margin-top: 35px;
+     margin-left: 150px;
+     margin-right: 150px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 68px;
+     box-sizing: border-box;
+}
+     header nav ul {
+          display: flex;
+          gap: 1 em ;
+          
+          
+     }
+     
+     .cel{
+          text-align: center;
+          margin-top: 2px;
+     }
+     
+     .mic{
+          text-align: center;
+          margin-top: 17px;
+     }
+     
+     .minihd{
+          text-align: center;
+          margin-top: 16px;
+     }
+
+.galeria{
+    
+     margin-top: 110px;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-bottom: 60px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: column ;
+     text-align: center;           
+}  
+
+.galeria-item{
+     transition: transform 1s;
+}
+
+.galeria-item:hover{
+     transform: scale(1.1);
+}
+a{
+    background-color: brown;
+    color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px;
+
+}
+
+
+a:hover{
+     background-color: white;
+     color: #a52a2a;
+     font-weight: 800;  
+     }
+p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+audio {
+     height: 30px;
+     width: 200px;
+     
+}
+
+.contacto {
+    background-color: brown;
+    color: white;
+    margin-left: 126px;
+    margin-right: 126px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    height: 36px;
+}
+
+
